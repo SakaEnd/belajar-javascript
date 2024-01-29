@@ -16,4 +16,4 @@ var kurang = function(a, b) {
     return a - b;
 }
 alert(kurang(25, 5));
-alert(jumlah(5, 20));
+alert(jumlah(5, 25));
