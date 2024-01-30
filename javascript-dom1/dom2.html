@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PILIH LINK</h1>
+    <form action="">
+        <select name="LinkSaya" id="LinkSaya" onchange="Link()">
+            <option value="">Pilih link</option>
+            <option value="https://www.google.com/">Google</option>
+        </select>
+    </form>
+    <script>
+         function Link() {
+            var link = document.getElementById("LinkSaya").value;
+            document.location.href = link;
+        }
+    </script>
+</body>
+</html>

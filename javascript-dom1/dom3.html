@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#" onclick="aksi('tampilkan', 'teks'); return false">TAMPILKAN</a>
+    <a href="" >SEMBUNYIKAN</a>
+
+    <P id="teks" style="display:none">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ipsam delectus 
+        error temporibus unde. Animi quod eius possimus fugiat modi, dicta officia illo
+         accusamus unde eum? Consequatur sapiente reiciendis nobis?</P>
+
+         <script>
+            function aksi(aksi, id) { 
+                if(aksi == "tampilkan"){
+                document.getElementById(id).style.display = "block";
+                }
+            } 
+         </script>
+</body>
+</html>
